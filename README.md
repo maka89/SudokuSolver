@@ -8,6 +8,8 @@ By defining the preprocessor definition SUDOKU_DISABLE_TIMESTAMP, you can remove
 ## Usage
 
 ```c++
+  #include "sudokusolver/solver.hpp"
+
   Board b;
   b.setBoard("example_board.txt");
   auto t = solve(b);
