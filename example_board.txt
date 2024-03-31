@@ -1,0 +1,17 @@
+FORMATTING:
+LINES WITH 9 DIGITS WILL BE READ SEQUENTIALLY AS LINES IN THE SUDOKU BOARD. 
+OTHER LINES AND SYMBOLS IGNORED.
+0 REPRESENTS EMPTY SQUARE
+
+
+ 7, 0, 0, 0, 9, 0, 0, 8, 0 }
+0, 3, 0, 0, 6, 0, 0, 0, 4 },
+0, 0, 0, 0, 0, 0, 0, 0, 0 },
+
+20 000 0 0 0 5
+8, 0, 0, 0, 2, 6, 4, 0, 0 },
+6, 0, 0, 0, 7, 0, 0, 0, 3 },
+
+{ 0, 1, 0, 0, 4, 0, 0, 0, 9 },
+{ 0, 0, 0, 2, 0, 5, 0, 0, 0 },
+{ 0, 7, 0, 9, 0, 0, 5, 0, 0 }
