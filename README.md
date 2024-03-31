@@ -10,11 +10,7 @@ By defining the preprocessor definition SUDOKU_DISABLE_TIMESTAMP, you can remove
 ```c++
   Board b;
   b.setBoard("example_board.txt");
-
-  // Pass pointer to RNG. Useful for finding different solutions for sudokus with multiple solutions.
-  std::default_random_engine rng((unsigned)time(0));
-  auto t = solve(b, &rng);
-
+  auto t = solve(b);
   printSolution(t, "solution.txt");
 ```
-See example.cpp
+See example.cpp for more examples of usage.
